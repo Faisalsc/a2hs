@@ -1,44 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- Manifest -->
+    <link rel="manifest" href="/manifest.json">
+  </head>  
+  <body>
+    <h1>
+      faisal
+    </h1>    
+    <!-- Install button, hidden by default -->
+    <div id="installContainer" class="hidden">
+      <button id="butInstall" type="button">
+        Install
+      </button>
+    </div>
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
-  <link rel="apple-touch-icon" href="logo192.png" />
-  <link rel="manifest" href="manifest.json" />
-  <link rel="stylesheet" href="style.css">
-  <title>PWA A2HS</title>
-</head>
-
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-  <div id="installContainer" class="hidden">
-    <button id="butInstall" type="button">
-      Install
-    </button>
-  </div>
-
-  <!-- import the webpage's javascript file -->
-  <script src="script.js" defer></script>
-
-  <!-- include the Glitch button to show what the webpage is about and
-        to make it easier for folks to view source and remix -->
-  <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-  <!--     <script src="https://button.glitch.me/button.js"></script> -->
-  <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-</body>
-
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+<!--     <script src="https://button.glitch.me/button.js"></script> -->
+  </body>
 </html>
